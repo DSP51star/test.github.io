@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HexaHub Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <header class="header" id="top">
+      <div class="logo-glitch">
+        <span>Hexa</span><span>Hub</span>
+      </div>
+      <nav class="nav">
+        <a href="#vision">Visión</a>
+        <a href="#mapa">Mapa</a>
+        <a href="#roles">Roles</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#modulos">Módulos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <button class="btn-cta" data-scroll="#contacto">Solicitar Demo</button>
+    </header>
+
+    <section class="hero">
+      <div class="hero-copy">
+        <h1>La plataforma gamer definitiva para tu comunidad.</h1>
+        <p>
+          Gestiona blog, tienda y descargas en un único panel futurista con
+          animaciones encriptadas y métricas en tiempo real.
+        </p>
+        <div class="hero-actions">
+          <button class="btn primary" id="demo-login">Login encriptado</button>
+          <button class="btn ghost" data-scroll="#mapa">Explorar Blueprint</button>
+        </div>
+      </div>
+      <div class="hero-card" aria-hidden="true">
+        <div class="card-header">Panel Admin</div>
+        <div class="card-body">
+          <div class="metric">
+            <span class="label">Ventas</span>
+            <span class="value">$ 12.5K</span>
+          </div>
+          <div class="metric">
+            <span class="label">Descargas</span>
+            <span class="value">4 809</span>
+          </div>
+          <div class="metric">
+            <span class="label">Usuarios activos</span>
+            <span class="value">1 245</span>
+          </div>
+          <div class="chart">
+            <div class="bar" style="height: 50%"></div>
+            <div class="bar" style="height: 80%"></div>
+            <div class="bar" style="height: 65%"></div>
+            <div class="bar" style="height: 92%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="section" id="vision">
+        <h2>Visión rápida</h2>
+        <p>
+          HexaHub reúne autenticación obligatoria, contenidos dinámicos y gestión
+          comercial en una experiencia audiovisual inspirada en universos sci-fi
+          y pixel art. Todo se controla desde un panel unificado con controles
+          granulares de rol.
+        </p>
+        <div class="grid grid-3">
+          <article class="tile">
+            <h3>Identidad segura</h3>
+            <p>
+              Acceso cifrado con animación "Encrypting → Handshake" antes de
+              mostrar el dashboard.
+            </p>
+          </article>
+          <article class="tile">
+            <h3>Economía gamificada</h3>
+            <p>Coins, XP y logros para premiar compras, descargas y reseñas.</p>
+          </article>
+          <article class="tile">
+            <h3>Micro-interacciones</h3>
+            <p>
+              Hover 3D, partículas y toasts pixelados que refuerzan el tema
+              hacker/gamer sin sacrificar usabilidad.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="mapa">
+        <h2>Mapa de secciones</h2>
+        <div class="map-grid">
+          <div class="map-card">
+            <h3>/auth</h3>
+            <p>Login/Registro con validación en vivo y captcha progresivo.</p>
+          </div>
+          <div class="map-card">
+            <h3>/home</h3>
+            <p>Feed híbrido con posts, packs y destacados de la tienda.</p>
+          </div>
+          <div class="map-card">
+            <h3>/blog</h3>
+            <p>Listado, detalle y editor markdown animado con preview.</p>
+          </div>
+          <div class="map-card">
+            <h3>/store</h3>
+            <p>Catálogo filtrable, carrito drag-to-cart y checkout.</p>
+          </div>
+          <div class="map-card">
+            <h3>/packzip</h3>
+            <p>Portal de descargas con versions, hashes y mirrors.</p>
+          </div>
+          <div class="map-card">
+            <h3>/profile</h3>
+            <p>Inventario, historial y seguridad 2FA opcional.</p>
+          </div>
+          <div class="map-card">
+            <h3>/admin/*</h3>
+            <p>
+              Administración integral de contenido, usuarios y estadísticas en
+              panel modular.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="roles">
+        <h2>Roles y permisos</h2>
+        <div class="roles">
+          <article class="role">
+            <h3>User</h3>
+            <ul>
+              <li>Navegar blog, tienda y packs.</li>
+              <li>Comprar, descargar y comentar.</li>
+              <li>Gestionar perfil, XP y badges.</li>
+            </ul>
+          </article>
+          <article class="role">
+            <h3>Admin</h3>
+            <ul>
+              <li>Todo lo de User.</li>
+              <li>CRUD de posts, productos y packs.</li>
+              <li>Gestión avanzada de usuarios y métricas.</li>
+            </ul>
+          </article>
+          <article class="role">
+            <h3>Moderator</h3>
+            <ul>
+              <li>Revisión de comentarios y reportes.</li>
+              <li>Acceso a logs y herramientas anti-spam.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="experiencia">
+        <h2>Experiencia visual & animaciones</h2>
+        <div class="experience">
+          <div class="experience-item">
+            <h3>Estética neón</h3>
+            <p>
+              Paleta violeta/cyan con tipografía futurista, glow sutil y
+              partículas dinámicas.
+            </p>
+          </div>
+          <div class="experience-item">
+            <h3>Transiciones HUD</h3>
+            <p>
+              Cambios de pantalla con wipe diagonal y sutiles efectos de sonido.
+            </p>
+          </div>
+          <div class="experience-item">
+            <h3>Interacciones clave</h3>
+            <p>
+              Botones ripple, tarjetas tilt 3D y barras de progreso “packaging”.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="modulos">
+        <h2>Funcionalidad por módulo</h2>
+        <div class="accordion">
+          <details open>
+            <summary>Autenticación</summary>
+            <p>
+              JWT con refresh rotativo, 2FA opcional, rate-limit y CSRF para
+              formularios críticos.
+            </p>
+          </details>
+          <details>
+            <summary>Blog</summary>
+            <p>
+              Búsqueda por etiquetas, editor markdown con portada animada y
+              programación de publicaciones.
+            </p>
+          </details>
+          <details>
+            <summary>Tienda</summary>
+            <p>
+              Filtros avanzados, compatibilidad por versión y checkout simulado o
+              real (Stripe).
+            </p>
+          </details>
+          <details>
+            <summary>PackZip</summary>
+            <p>
+              Descargas con hash SHA-256, mirrors, límites por IP y estadísticas
+              diarias.
+            </p>
+          </details>
+          <details>
+            <summary>Perfil</summary>
+            <p>
+              Historial de compras/descargas, badges y ajustes de seguridad.
+            </p>
+          </details>
+          <details>
+            <summary>Panel Admin</summary>
+            <p>
+              CRUD completo, dashboards con métricas, toasts pixelados y
+              confirmaciones flip.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <section class="section" id="datos">
+        <h2>Modelo de datos & API</h2>
+        <div class="data-grid">
+          <div>
+            <h3>Entidades principales</h3>
+            <ul>
+              <li>User, Post, Product, Order, Pack, PackVersion</li>
+              <li>DownloadLog para auditoría de descargas</li>
+              <li>Review moderado</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Rutas clave</h3>
+            <ul>
+              <li>POST /api/auth/login · register · refresh</li>
+              <li>GET/POST/PUT/DELETE /api/blog y /api/store/products</li>
+              <li>POST /api/packzip/download/:versionId con URL firmada</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contacto">
+        <h2>Solicita una demo</h2>
+        <p>
+          Despliega HexaHub en cuestión de semanas. Recibe un roadmap MVP → V1 y
+          un setup personalizado según tu comunidad.
+        </p>
+        <form class="form">
+          <div class="form-row">
+            <label for="name">Nombre</label>
+            <input id="name" type="text" placeholder="Alex Player" required />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input
+              id="email"
+              type="email"
+              placeholder="contacto@clan.gg"
+              required
+            />
+          </div>
+          <div class="form-row">
+            <label for="message">Mensaje</label>
+            <textarea
+              id="message"
+              rows="4"
+              placeholder="Cuéntanos sobre tu comunidad y objetivos."
+            ></textarea>
+          </div>
+          <button class="btn primary" type="submit">Enviar solicitud</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2024 HexaHub Platform · Inspirado en comunidades Minecraft & Valorant</p>
+      <a href="#top" class="to-top" aria-label="Volver arriba">↟</a>
+    </footer>
+
+    <div class="toast" role="status" aria-live="polite"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
